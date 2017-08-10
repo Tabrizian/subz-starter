@@ -4,5 +4,17 @@
   "main": "index.js",
   "repository": "git@github.com:Tabrizian/subz-starter.git",
   "author": "Iman Tabrizian <Tabrizian@outlook.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "npx nodemon index.js"
+  },
+  "dependencies": {
+    "handlebars": "^4.0.10",
+    "hapi": "^16.5.2",
+    "vision": "^4.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
 }
