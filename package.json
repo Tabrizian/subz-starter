@@ -1,0 +1,8 @@
+{
+  "name": "subz-starter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Tabrizian/subz-starter.git",
+  "author": "Iman Tabrizian <Tabrizian@outlook.com>",
+  "license": "MIT"
+}
