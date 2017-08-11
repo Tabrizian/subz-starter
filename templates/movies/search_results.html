@@ -1,0 +1,24 @@
+<table class="table">
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Title describtion</th>
+      <th>Year</th>
+    </tr>
+  </thead>
+  <tbody>
+  {{#each movies}}
+  <tr>
+    <td>
+      {{ this.title }}
+    </td>
+    <td>
+      {{ this.title_description }}
+    </td>
+    <td>
+      {{ this.year }}
+    </td>
+  </tr>
+  {{/each}}
+  </tbody>
+</table>

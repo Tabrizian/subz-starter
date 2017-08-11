@@ -10,6 +10,7 @@
     "dev": "npx nodemon index.js"
   },
   "dependencies": {
+    "axios": "^0.16.2",
     "handlebars": "^4.0.10",
     "hapi": "^16.5.2",
     "vision": "^4.1.1"

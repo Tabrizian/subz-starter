@@ -1,6 +1,6 @@
 const index = {
   method: 'GET',
-  path: '/',
+  path: '/common',
   handler: (req, reply) => {
     reply.view('index', {
       title: 'Index'
