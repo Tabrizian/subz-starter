@@ -1,21 +1,12 @@
 const { Server } = require('hapi')
-
+const { view } = require('./lib')
 const server = new Server()
 
 server.connection({ port: 3000 });
 
 server.register([
-  require('vision')
+  view
 ], err => {
-  if (err) return console.log(err);
-
-  server.views({
-    engines: {
-      html: require('handlebars'),
-    },
-    path: __dirname + '/templates',
-    layout: true
-  });
 
   server.route({ method: 'GET', path: '/', handler: handler });
 
